@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Signika'); /*Header font */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Roboto+Slab');
+
+
+
+
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: #F3E6CE;
+    
+/*    background: rgba(255, 215, 0, 0.85);*/
+}
+
+html{
+    text-rendering: optimizeLegibility;
+   
+}
+
+.row {
+    
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*Header Content*/
+.header-content{
+    
+    background-color: gold;
+}
+.header-img{
+    
+    background-image: url(img/header-edited.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    background-color: #F3E6CE;
+    
+}
+
+.logo-text h1{
+    
+    
+    margin-left: 60px;
+    font-family: 'Signika', sans-serif; 
+    font-size: 3em;
+}
+/*Navigation Bar*/
+
+.navi-bar{
+/*    border-bottom: 1px solid #eaeaeb;*/
+/*    text-align: center;*/
+    float: right;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 28px;
+    background-color: #F3E6CE;
+}
+
+.menu {
+    
+    margin: 0 30px 0 0;
+    
+}
+
+.menu a {
+    
+    text-decoration: none;
+    color: grey;
+    margin: 0 10px;
+    line-height: 70px;
+    clear: right;
+    font-size: 20px
+}
+
+label {
+    
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle { 
+    display: none;
+}
+
+
+.heading-title{
+    
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-width: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.story-content{
+    
+    background-color:#F3E6CE;
+}
+
+.story-content {
+    
+    text-align: center;
+    background-color: gold;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 15%;
+    
+    
+}
+
+.story-content h2{
+    
+    font-size: 2em;
+    padding-top: 10%;
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+ 
+}
+
+.story-txt {
+    
+
+    color: red;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 15px;
+    margin-top: 5px;
+    
+
+}
+
+.story-sub-txt{
+    
+   
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 50px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    font-size: 1.2em
+    
+
+
+}
+
+/* Food + Drink section */
+.food-drink{
+    
+    background-image:linear-gradient(rgba(255, 235, 235, 0.53), rgba(250, 233, 233, 0.72)), url(img/1042.png);
+}
+
+.food-content h3{
+    
+    padding-top: 10%;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+    
+}
+
+.food-content p{
+    
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 50px;
+    font-size: 1.2em;
+    
+}
+
+/* Menu Button */
+
+.menu-btn
+{
+   background-color: rgba(237, 37, 37, 0.88);
+    padding: 10px 30px;
+    color: #fff;
+    margin-bottom: 15%;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-top: 5%;
+    margin-left: 42%;
+    border-radius: 200px;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.menu-btn:link,
+.menu-btn:visited{
+    
+    background-color: rgba(237, 37, 37, 0.88);
+    padding: 10px 30px;
+    color: #fff;
+    margin-bottom: 15%;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-top: 5%;
+    margin-left: 43%;
+    border-radius: 200px;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.menu-btn:hover,
+.menu-btn:active{
+    
+    background-color: black;
+}
+    
+
+/* Our People Section **/
+
+
+ol{
+    
+    list-style: decimal;
+    counter-reset: item;
+    
+}
+
+li{
+    counter-increment: item;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+
+.values-list {
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: inline-block;
+    margin: 0;
+ 
+}
+
+.values-list li{
+    
+
+    line-height: 40px;
+    margin-top: 50px;
+    font-size: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.our-people{
+    
+    background: #ff5c14;
+}
+.our-people h3 {
+    
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: black;
+} 
+
+.sub-text{
+    
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 45px;
+    margin-top: 10%;
+    font-size: 1.5em;
+    padding-right: 15%;
+    padding-left: 15%;
+    color: #fff;
+}
+
+.ceo-info{
+    
+    background: #ff5c14;
+    
+}
+
+.ceo-info img{
+    
+    width: 450px;
+    height: 400px;
+    border-radius: 50%;
+    border: 8px solid white;
+    background: #ff6200;
+    margin-top: 60px;
+    margin-left: 5%;
+    
+}
+
+.ceo-info h3{
+    
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 8%;
+    color: #e6e6e6;
+}
+
+.ceo-info p{
+    
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-right: 8%;
+    color: #e6e6e6;
+    
+    
+}
+
+
+.grid-images img{
+    
+    width: 100%;
+    height: auto;
+    
+}
